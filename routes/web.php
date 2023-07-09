@@ -27,5 +27,16 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+Route::get('/app', function () {
+    return view('app');
+});
+Route::get('/move', function () {
+    event(new CarMoved(1.2921, 136.8219));
+});
+Route::get('/calculate-cost', [DistanceCostController::class,'index']);
+Route::post('/calculate-cost',[DistanceCostController::class, 'calculate']);
 
+
+Route::get('/process-payment', [MpesaPaymentController::class,'index']);
+Route::post('/process-payment', [MpesaPaymentController::class, 'processPayment']);
 require __DIR__.'/auth.php';
