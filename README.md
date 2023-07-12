@@ -1,7 +1,11 @@
-# Farmconnect
-<h3>The Farm Conect Application</h3>
-<p>The proposed project is focused on developing a comprehensive web application system that 
-utilizes blockchain technology to enable real-time tracking and location monitoring of 
-agricultural products from farms to their respective destinations.<p>
 
-<p>The application focuses on assisting farmers with tracking their products as they are transported to the main destination of distribution.<p<br>
+# Farmconnect
+
+I've tried to do this part, but, I'm having an error because i do not have the files you used to create all the things in this specific branch.
+So it probably works only on your side, but not on mine.
+
+## The Error
+
+- PHP Fatal error:  Uncaught Error: Failed opening required 'C:\farm_connect_rv\farmconnect/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\farm_connect_rv\farmconnect\artisan:18
+
+That is the error I'm having, ao i can't integrate this cod eon my side.
