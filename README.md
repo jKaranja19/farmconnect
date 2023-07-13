@@ -23,3 +23,5 @@ Once the user is registered within the system, they can input their product deta
 
 ## Installation Process
 
+- Clone the repository: <code>git clone github.com/jKaranja19/farmconnect</code>
+- Install depedencies: <code>npm install</code>
