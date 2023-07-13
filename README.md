@@ -1,6 +1,13 @@
 
 # Farm Connect
 
+## Built With
+
+The following system has been built using the following:
+- [Laravel 10](https://github.com/laravel/framework)
+- [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
+- [Laravel Breeze](https://github.com/laravel/breeze)
+
 ## About
 
 Farm Connect is a web application system that utilizes blockchain technology to enable real-time tracking and location monitoring of agricultural products from farms to their respective destinations.
