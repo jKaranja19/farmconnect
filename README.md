@@ -1,4 +1,7 @@
 
 # Farm Connect
 
-### This is the main file which will have all the details
+### About
+
+Farm Connect is a web application system that utilizes blockchain technology to enable real-time tracking and location monitoring of agricultural products from farms to their respective destinations.
+
