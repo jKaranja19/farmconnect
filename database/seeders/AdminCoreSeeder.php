@@ -67,7 +67,7 @@ class AdminCoreSeeder extends Seeder
         // create demo users
         $user = \App\Models\User::factory()->create([
             'name' => 'Super Admin',
-            'email' => 'superadmin@example.com',
+            'email' => 'joyline.19.karanja@gmail.com',
         ]);
         $user->assignRole($role3);
 
