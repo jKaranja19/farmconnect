@@ -37,7 +37,7 @@ In order to have the system within your device, follow the steps given:
 - `npm install`
 - `npm run dev`
 - `php artisan serve`
-- Now open the link provided after running the following commands.
+- Now open the link provided.
 
 ## Login
 
@@ -46,13 +46,13 @@ Since there are values within the system have been seeded, there are steps to fo
 ### Login Procedure
 
 1. In order to log in as a super admin:
-- Use the email superadmin@example.com
-- Password as password
+    - Use the email superadmin@example.com
+    - Password as password
 
 2. In order to log in as an admin:
-- Use the email admin@example.com
-- Password as password
+    - Use the email admin@example.com
+    - Password as password
 
 3. In order to login as a user:
-- Use the email test@example.com
-- Password as password
+    - Use the email test@example.com
+    - Password as password
