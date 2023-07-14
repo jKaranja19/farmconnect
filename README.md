@@ -45,14 +45,14 @@ Since there are values within the system have been seeded, there are steps to fo
 
 ### Login Procedure
 
-In order to log in as a super admin:
+1. In order to log in as a super admin:
 - Use the email superadmin@example.com
 - Password as password
 
-In order to log in as an admin:
+2. In order to log in as an admin:
 - Use the email admin@example.com
 - Password as password
 
-In order to login as a user:
+3. In order to login as a user:
 - Use the email test@example.com
 - Password as password
