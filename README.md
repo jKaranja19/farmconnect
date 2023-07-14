@@ -6,6 +6,8 @@
 - [Introduction](#introduction)
 - [Built With](#built-with)
 - [How it works](#how-it-works)
+- [Logging in](#login)
+- [Login procedure](#procedure)
 
 ## Introduction
 
@@ -25,3 +27,32 @@ Once the user is registered within the system, they can input their product deta
 
 In order to have the system within your device, follow the steps given:
 
+- To get started, you need to install [PHP Composer](https://getcomposer.org/).
+- `composer create-project balajidharma/basic-laravel-admin-panel admin-app`
+- `cd admin-app`
+- Create a new MYSQL database and update database details in `.env` file
+- `php artisan vendor:publish --provider="BalajiDharma\LaravelAdminCore\AdminCoreServiceProvider"`
+- `php artisan vendor:publish --provider="BalajiDharma\LaravelMenu\MenuServiceProvider"`
+- `php artisan migrate --seed --seeder=AdminCoreSeeder`
+- `npm install`
+- `npm run dev`
+- `php artisan serve`
+- Now open the link provided after running the following commands.
+
+## Login
+
+Since ther values within the system have been seeded, there are steps to follow in order to log in as a specific role.
+
+### Procedure
+
+In order to log in as a super admin:
+- Use the email superadmin@example.com
+- Password as password
+
+In order to log in as an admin:
+- Use the email admin@example.com
+- Password as password
+
+In order to login as a user:
+- Use the email test@example.com
+- Password as password
