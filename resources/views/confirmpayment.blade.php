@@ -1,8 +1,8 @@
 <x-guest-layout>
 
-  <form method="POST" action="/requestdelivery">
+  <form method="GET" action="/requestdelivery">
       @csrf
-      <p>Thank you for your payment. Kindly take note of your transcation code as you will need it to make the delivery request</p>
+      <p>Kindly wait for the M-Pesa prompt. When prompted, kindly input your M-Pesa pin and take note of your transaction. You will need it to make the delivery request</p>
         <div class="flex items-center justify-end ">
             
 
