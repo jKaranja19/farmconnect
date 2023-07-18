@@ -13,18 +13,29 @@
     <form method="POST" action="/requestdelivery">
         @csrf
 
+        <div class="mt-4">
+            <x-input-label for="email" :value="__('Enter your Email:')" />
+            <x-text-input id="email" class="block mt-1 w-full" type="text" name="email" :value="old('payment_transaction')" required  />
+            
+        </div>
+
+
         <!-- Name -->
         <div>
-            <x-input-label for="produce_name" :value="__('Choose item for transportation')" />
-            <select id="produce_name" name="produce_name" class="block mt-1 w-full rounded">
+            <x-input-label for="produce_name" :value="__('Add item for transportation')" />
+            <x-text-input id="produce_name" class="block mt-1 w-full" type="text" name="produce_name" :value="old('payment_transaction')" required  />
+
+            <!-- <select id="produce_name" name="produce_name" class="block mt-1 w-full rounded">
                 <option value=""></option>
                 <option value="tomatoes">Tomatoes</option>
                 <option value="potatoes">Potatoes</option>
                 <option value="milk">Milk</option>
               
             </select>
+-->
         </div>
-
+        
+        
         <!-- Description -->
         <div>
             <x-input-label for="pickup_location" :value="__('Enter Pickup Location')" />
@@ -41,17 +52,18 @@
        <!-- Price -->
        
        <div class="mt-4">
-            <x-input-label for="delivery_quantity" :value="__('Input Quantity in Kgs/Litres')" />
+            <x-input-label for="delivery_quantity" :value="__('Input Quantity in Kgs/Litres/Pounds')" />
             <x-text-input id="delivery_quantity" class="block mt-1 w-full" type="number" name="delivery_quantity" :value="old('delivery_quantity')" required  />
             
         </div>
 
         <!-- Certification -->
-        <div class="mt-4">
-        <x-input-label for="delivery_truck" :value="__('Choose Available Delivery Truck')" />
+         <div class="mt-4">
+            <!-- <x-input-label for="delivery_truck" :value="__('Choose Available Delivery Truck')" />-->
          <div class="relative">
-        
-        <!-- <select id="delivery_truck" name="delivery_truck" class="block mt-1 w-full rounded">
+
+
+            <!-- <select id="delivery_truck" name="delivery_truck" class="block mt-1 w-full rounded">
                 <option value=""></option>
                 <option value="Canter KDG">Canter KDG 171H</option>
                 <option value="Canter KAM">Canter KAM 444Z</option>
