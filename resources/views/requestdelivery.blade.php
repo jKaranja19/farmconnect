@@ -51,13 +51,13 @@
         <x-input-label for="delivery_truck" :value="__('Choose Available Delivery Truck')" />
          <div class="relative">
         
-        <select id="delivery_truck" name="delivery_truck" class="block mt-1 w-full rounded">
+        <!-- <select id="delivery_truck" name="delivery_truck" class="block mt-1 w-full rounded">
                 <option value=""></option>
                 <option value="Canter KDG">Canter KDG 171H</option>
                 <option value="Canter KAM">Canter KAM 444Z</option>
                 <option value="Isuzu Elf">Isuzu Elf KBM 213D</option>
                 
-            </select>
+            </select> -->
     </div>
 </div>
 

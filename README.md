@@ -34,7 +34,6 @@ In order to have the system within your device, follow the steps given:
 
 ## Login
 
-Since there are values within the system have been seeded, there are steps to follow in order to log in as a specific role.
 
 ### Login Procedure
 

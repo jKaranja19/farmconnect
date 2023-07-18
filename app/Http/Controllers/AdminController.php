@@ -56,4 +56,12 @@ class AdminController extends Controller
         return redirect()->back();
     }
 
+
+    /*public function show_vehicle()
+    {
+        $vehicle = Vehicle::all();
+        return view('admin.show_vehicle', compact('vehicle'));
+    }
+*/
+
 }

@@ -14,13 +14,35 @@ class RequestDeliveryController extends Controller
 
         $delivery=new RequestDelivery;
         $delivery->produce_name = $request->produce_name;
+        $delivery->email = $request->email;
         $delivery->pickup_location = $request->pickup_location;
         $delivery->delivery_quantity = $request->delivery_quantity;
-        $delivery->delivery_truck = $request->delivery_truck;
+        //$delivery->delivery_truck = $request->delivery_truck;
         $delivery->payment_transaction = $request->payment_transaction;
         $delivery->save();
       
        
        return view('await');
    }
+
+   /*public function show_delivery()
+    {
+        $delivery = RequestDelivery::all();
+        return view('admin.show_delivery', compact('delivery'));
+    }*/
+   
+
+public function show_delivery()
+{
+    $delivery = RequestDelivery::all();
+    return view('admin.show_delivery', compact('delivery'));
+}
+
+public function view_delivery()
+{
+    $delivery = RequestDelivery::all();
+    return view('driver.view_delivery', compact('delivery'));
+}
+
+
 }

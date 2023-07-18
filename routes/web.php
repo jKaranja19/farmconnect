@@ -112,3 +112,6 @@ Route::delete('/viewproduce/{id}', [AddProduceController::class, 'destroy'])
     //Route::get('viewproduce',[DeleteProduceController::class, 'index']);
     //Route::get('viewproduce/{id}',[DeleteProduceController::class, 'destroy']);
     
+
+    Route::get('/show_delivery', [RequestDeliveryController::class,'show_delivery']);
+    Route::get('/view_delivery', [RequestDeliveryController::class,'view_delivery']);
