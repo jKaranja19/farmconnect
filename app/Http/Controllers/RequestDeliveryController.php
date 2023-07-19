@@ -21,7 +21,7 @@ class RequestDeliveryController extends Controller
         $delivery->save();
       
        
-       return view('await');
+       return view('dashboard');
    }
 
    /*public function show_delivery()
