@@ -171,7 +171,7 @@ header{
           <h1>Farm Connect</h1>
         </header>
      <div class="menu">
-       <div class="item"><a href="#"><i class="fas fa-desktop"></i>Dashboard</a></div>
+       <div class="item"><i class="fas fa-desktop"></i>Dashboard</div>
        <div class="item">
          <a class="sub-btn"><i class="fas fa-seedling"></i>Produce<i class="fas fa-angle-right dropdown"></i></a>
          <div class="sub-menu">
