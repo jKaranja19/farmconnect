@@ -39,7 +39,7 @@
       
     <div class="page-content">
         
-        <h2 class="title_deg">Available Vehicles</h2>
+        <h2 class="title_deg">Delivery Orders Made</h2>
         <table class="table_design">
             <tr class="th_deg">
                 <th>Order ID</th>

@@ -54,7 +54,7 @@
                  marker = new google.maps.Marker({
                     map: map,
                     position: position,
-                    title: "Current Location",
+                    title: "Vehicle",
                 });
                 }
                 
