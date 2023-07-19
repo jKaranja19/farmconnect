@@ -13,10 +13,16 @@
                 <li><a href="{{url('vehicle_page')}}"> <i class="icon-grid"></i>Add Vehicle </a></li>
                 <li><a href="{{url('/show_vehicle')}}"> <i class="fa fa-bar-chart"></i>View Vehicles </a></li>
                 <li><a href="{{url('/show_delivery')}}"> <i class="fa fa-bar-chart"></i>Delivery Orders </a></li>
+                <li><a href="{{url('/user_page')}}"> <i class="fa fa-bar-chart"></i>Add Driver </a></li>
+                
+                
+                
                 
                 <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Profiles </a>
                   <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                    <li><a href="#">Users</a></li>
+                    <li><a href="{{url('/show_user')}}"> Users</a></li>
+                   <!-- <li><a href="{{url('/show_user')}}"> Add Driver</a></li> -->
+                    
                     
                   </ul>
                 </li>

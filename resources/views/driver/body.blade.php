@@ -24,7 +24,7 @@
                 <div class="statistic-block block">
                   <div class="progress-details d-flex align-items-end justify-content-between">
                     <div class="title">
-                      <div class="icon"><i class="icon-contract"></i></div><strong>Orders Made</strong>
+                      <div class="icon"><a href="{{url('/view_delivery')}}"><i class="icon-contract"></i></div><strong>Orders Made</a></strong>
                     </div>
                     <div class="number dashtext-2"></div>
                   </div>

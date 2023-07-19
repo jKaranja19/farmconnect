@@ -11,9 +11,9 @@
                 <div class="statistic-block block">
                   <div class="progress-details d-flex align-items-end justify-content-between">
                     <div class="title">
-                      <div class="icon"><i class="icon-user-1"></i></div><strong>Registered Users</strong>
+                      <div class="icon"><a href="{{url('/show_user')}}"><i class="icon-user-1"></i></div><strong>Registered Users</a></strong>
                     </div>
-                    <div class="number dashtext-1">27</div>
+                    <div class="number dashtext-1"></div>
                   </div>
                   <div class="progress progress-template">
                     <div role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-1"></div>

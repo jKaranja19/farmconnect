@@ -115,3 +115,13 @@ Route::delete('/viewproduce/{id}', [AddProduceController::class, 'destroy'])
 
     Route::get('/show_delivery', [RequestDeliveryController::class,'show_delivery']);
     Route::get('/view_delivery', [RequestDeliveryController::class,'view_delivery']);
+
+Route::get('/user_page', [AdminController::class,'user_page']);
+
+Route::post('/add_user', [AdminController::class,'add_user']);
+
+Route::get('/show_user', [AdminController::class,'show_user']);
+
+Route::get('/edit_user/{id}', [AdminController::class,'edit_user']);
+
+Route::post('/update_user/{id}', [AdminController::class,'update_user']);
