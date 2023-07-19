@@ -17,7 +17,6 @@ class RequestDeliveryController extends Controller
         $delivery->email = $request->email;
         $delivery->pickup_location = $request->pickup_location;
         $delivery->delivery_quantity = $request->delivery_quantity;
-        //$delivery->delivery_truck = $request->delivery_truck;
         $delivery->payment_transaction = $request->payment_transaction;
         $delivery->save();
       
