@@ -36,7 +36,7 @@ composer create-project laravel/laravel example-app
 ```
 composer require laravel/breeze --dev
 ```
-- Get Laravel breeze within your system by running the commands given:
+- Navigate to your newly created project and run these commands in your terminal:
  ```
 php artisan breeze:install blade
 php artisan migrate
